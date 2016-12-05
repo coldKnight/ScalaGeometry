@@ -4,6 +4,7 @@
 class Geo {
 
   def coordToVector(A: Array[Int], B: Array[Int]): Array[Int] ={
+    //Convert two points A and B to a vector
     var result = new Array[Int](2)
     result(0) = B(0)-A(0)
     result(1) = B(1)-A(1)
